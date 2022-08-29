@@ -127,7 +127,6 @@
   /*Menu mobile*/
   .mobile-menu {
     position: absolute;
-    padding: 24px;
     top: 61px;
     background: var(--white);
     left: 0;
@@ -140,7 +139,7 @@
     /* margin-bottom: 24px; */
   }
   .mobile-menu ul {
-    padding: 0;
+    padding-left: 24px;
     margin: 24px 0 0;
     list-style: none;
   }
@@ -241,14 +240,18 @@
     height: 50px;
   }
 
+  .go-back {
+    cursor: pointer;
+  }
+
   /*Product detail*/
   .product-detail-close {
     background: var(--white);
     width: 14px;
     height: 14px;
     position: absolute;
-    top: 24px;
-    left: 24px;
+    top: 10px;
+    left: 10px;
     z-index: 2;
     padding: 12px;
     border-radius: 50%;
